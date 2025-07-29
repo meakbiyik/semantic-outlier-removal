@@ -1,29 +1,29 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
-[cite_start]title: "Semantic Outlier Removal with Embedding Models and LLMs" # [cite: 2]
+title: "Semantic Outlier Removal with Embedding Models and LLMs"
 authors:
   - family-names: "Akbiyik"
     given-names: "Eren"
-    [cite_start]affiliation: "TripleLift" # [cite: 5]
+    affiliation: "TripleLift"
   - family-names: "Almeida"
     given-names: "João"
-    [cite_start]affiliation: "TripleLift" # [cite: 5]
+    affiliation: "TripleLift"
   - family-names: "Melis"
     given-names: "Rik"
-    [cite_start]affiliation: "TripleLift" # [cite: 5]
+    affiliation: "TripleLift"
   - family-names: "Sriram"
     given-names: "Ritu"
-    [cite_start]affiliation: "TripleLift" # [cite: 5]
+    affiliation: "TripleLift"
   - family-names: "Petrescu"
     given-names: "Viviana"
-    [cite_start]affiliation: "TripleLift" # [cite: 5]
+    affiliation: "TripleLift"
   - family-names: "Vilhjálmsson"
     given-names: "Vilhjálmur"
-    [cite_start]affiliation: "TripleLift" # [cite: 5]
+    affiliation: "TripleLift"
 repository-code: "https://github.com/meakbiyik/sore"
 url: "https://meakbiyik.com/sore/"
-abstract: "Modern text processing pipelines demand robust methods to remove extraneous content while preserving a document's core message. Traditional approaches such as HTML boilerplate extraction or keyword filters often fail in multilingual settings and struggle with context-sensitive nuances, whereas Large Language Models (LLMs) offer improved quality at high computational cost. We introduce SORE (Semantic Outlier Removal), a cost-effective, transparent method that leverages multilingual sentence embeddings and approximate nearest-neighbor search to identify and excise unwanted text segments. By first identifying core content via metadata embedding and then flagging segments that either closely match predefined outlier groups or deviate significantly from the core, SORE achieves near-LLM extraction precision at a fraction of the cost." [cite_start]# [cite: 9, 10, 11, 12]
+abstract: "Modern text processing pipelines demand robust methods to remove extraneous content while preserving a document's core message. Traditional approaches such as HTML boilerplate extraction or keyword filters often fail in multilingual settings and struggle with context-sensitive nuances, whereas Large Language Models (LLMs) offer improved quality at high computational cost. We introduce SORE (Semantic Outlier Removal), a cost-effective, transparent method that leverages multilingual sentence embeddings and approximate nearest-neighbor search to identify and excise unwanted text segments. By first identifying core content via metadata embedding and then flagging segments that either closely match predefined outlier groups or deviate significantly from the core, SORE achieves near-LLM extraction precision at a fraction of the cost." # [cite: 9, 10, 11, 12]
 keywords:
   - boilerplate-removal
   - content-extraction
@@ -33,28 +33,28 @@ keywords:
   - nlp
 preferred-citation:
   type: conference-paper
-  [cite_start]title: "Semantic Outlier Removal with Embedding Models and LLMs" # [cite: 2]
+  title: "Semantic Outlier Removal with Embedding Models and LLMs" 
   authors:
     - family-names: "Akbiyik"
       given-names: "Eren"
-      [cite_start]affiliation: "TripleLift" # [cite: 5]
+      affiliation: "TripleLift"
     - family-names: "Almeida"
       given-names: "João"
-      [cite_start]affiliation: "TripleLift" # [cite: 5]
+      affiliation: "TripleLift"
     - family-names: "Melis"
       given-names: "Rik"
-      [cite_start]affiliation: "TripleLift" # [cite: 5]
+      affiliation: "TripleLift"
     - family-names: "Sriram"
       given-names: "Ritu"
-      [cite_start]affiliation: "TripleLift" # [cite: 5]
+      affiliation: "TripleLift"
     - family-names: "Petrescu"
       given-names: "Viviana"
-      [cite_start]affiliation: "TripleLift" # [cite: 5]
+      affiliation: "TripleLift"
     - family-names: "Vilhjálmsson"
       given-names: "Vilhjálmur"
-      [cite_start]affiliation: "TripleLift" # [cite: 5]
+      affiliation: "TripleLift"
   collection-title: "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics"
   year: 2025
   publisher:
     name: "Association for Computational Linguistics"
-  [cite_start]url: "https://arxiv.org/abs/2506.16644" # [cite: 1]
+  url: "https://arxiv.org/abs/2506.16644"
