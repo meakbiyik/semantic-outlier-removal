@@ -1,4 +1,4 @@
-# Semantic Outlier Removal with Embedding Models and LLMs
+# SORE: Semantic Outlier Removal with Embedding Models and LLMs
 
 <div align="center">
 
